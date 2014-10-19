@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6383B7519F3C8A200FBD9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6383B7419F3C8A200FBD9BE /* AppDelegate.swift */; };
+		E6383B7719F3C8A200FBD9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6383B7619F3C8A200FBD9BE /* ViewController.swift */; };
+		E6383B7A19F3C8A200FBD9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6383B7819F3C8A200FBD9BE /* Main.storyboard */; };
+		E6383B7C19F3C8A200FBD9BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6383B7B19F3C8A200FBD9BE /* Images.xcassets */; };
+		E6383B8B19F3C8A200FBD9BE /* SmoothStatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6383B8A19F3C8A200FBD9BE /* SmoothStatusBarTests.swift */; };
+		E6383B9819F3CD4800FBD9BE /* UIApplication+FrankAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */; };
+		E6F71BDC19F3D4BC00590C27 /* back-to-the-future-pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6F71BDB19F3D4BC00590C27 /* back-to-the-future-pic1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6383B8519F3C8A200FBD9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6383B6719F3C8A200FBD9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6383B6E19F3C8A200FBD9BE;
+			remoteInfo = SmoothStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6383B6F19F3C8A200FBD9BE /* SmoothStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6383B7319F3C8A200FBD9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6383B7419F3C8A200FBD9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6383B7619F3C8A200FBD9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6383B7919F3C8A200FBD9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6383B7B19F3C8A200FBD9BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6383B8419F3C8A200FBD9BE /* SmoothStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6383B8919F3C8A200FBD9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6383B8A19F3C8A200FBD9BE /* SmoothStatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothStatusBarTests.swift; sourceTree = "<group>"; };
+		E6383B9519F3CD4700FBD9BE /* SmoothStatusBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmoothStatusBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6383B9619F3CD4800FBD9BE /* UIApplication+FrankAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FrankAutomation.h"; sourceTree = "<group>"; };
+		E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FrankAutomation.m"; sourceTree = "<group>"; };
+		E6F71BDB19F3D4BC00590C27 /* back-to-the-future-pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back-to-the-future-pic1.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6383B6C19F3C8A200FBD9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6383B8119F3C8A200FBD9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6383B6619F3C8A200FBD9BE = {
+			isa = PBXGroup;
+			children = (
+				E6383B7119F3C8A200FBD9BE /* SmoothStatusBar */,
+				E6383B8719F3C8A200FBD9BE /* SmoothStatusBarTests */,
+				E6383B7019F3C8A200FBD9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6383B7019F3C8A200FBD9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6383B6F19F3C8A200FBD9BE /* SmoothStatusBar.app */,
+				E6383B8419F3C8A200FBD9BE /* SmoothStatusBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6383B7119F3C8A200FBD9BE /* SmoothStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				E6383B9419F3CD1200FBD9BE /* Fex */,
+				E6383B7419F3C8A200FBD9BE /* AppDelegate.swift */,
+				E6383B7619F3C8A200FBD9BE /* ViewController.swift */,
+				E6383B7819F3C8A200FBD9BE /* Main.storyboard */,
+				E6383B7B19F3C8A200FBD9BE /* Images.xcassets */,
+				E6383B7219F3C8A200FBD9BE /* Supporting Files */,
+			);
+			path = SmoothStatusBar;
+			sourceTree = "<group>";
+		};
+		E6383B7219F3C8A200FBD9BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F71BDB19F3D4BC00590C27 /* back-to-the-future-pic1.jpg */,
+				E6383B7319F3C8A200FBD9BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6383B8719F3C8A200FBD9BE /* SmoothStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6383B8A19F3C8A200FBD9BE /* SmoothStatusBarTests.swift */,
+				E6383B8819F3C8A200FBD9BE /* Supporting Files */,
+			);
+			path = SmoothStatusBarTests;
+			sourceTree = "<group>";
+		};
+		E6383B8819F3C8A200FBD9BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6383B8919F3C8A200FBD9BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6383B9419F3CD1200FBD9BE /* Fex */ = {
+			isa = PBXGroup;
+			children = (
+				E6383B9619F3CD4800FBD9BE /* UIApplication+FrankAutomation.h */,
+				E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */,
+				E6383B9519F3CD4700FBD9BE /* SmoothStatusBar-Bridging-Header.h */,
+			);
+			name = Fex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6383B6E19F3C8A200FBD9BE /* SmoothStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6383B8E19F3C8A200FBD9BE /* Build configuration list for PBXNativeTarget "SmoothStatusBar" */;
+			buildPhases = (
+				E6383B6B19F3C8A200FBD9BE /* Sources */,
+				E6383B6C19F3C8A200FBD9BE /* Frameworks */,
+				E6383B6D19F3C8A200FBD9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothStatusBar;
+			productName = SmoothStatusBar;
+			productReference = E6383B6F19F3C8A200FBD9BE /* SmoothStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6383B8319F3C8A200FBD9BE /* SmoothStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6383B9119F3C8A200FBD9BE /* Build configuration list for PBXNativeTarget "SmoothStatusBarTests" */;
+			buildPhases = (
+				E6383B8019F3C8A200FBD9BE /* Sources */,
+				E6383B8119F3C8A200FBD9BE /* Frameworks */,
+				E6383B8219F3C8A200FBD9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6383B8619F3C8A200FBD9BE /* PBXTargetDependency */,
+			);
+			name = SmoothStatusBarTests;
+			productName = SmoothStatusBarTests;
+			productReference = E6383B8419F3C8A200FBD9BE /* SmoothStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6383B6719F3C8A200FBD9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ivan Vavilov";
+				TargetAttributes = {
+					E6383B6E19F3C8A200FBD9BE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E6383B8319F3C8A200FBD9BE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E6383B6E19F3C8A200FBD9BE;
+					};
+				};
+			};
+			buildConfigurationList = E6383B6A19F3C8A200FBD9BE /* Build configuration list for PBXProject "SmoothStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6383B6619F3C8A200FBD9BE;
+			productRefGroup = E6383B7019F3C8A200FBD9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6383B6E19F3C8A200FBD9BE /* SmoothStatusBar */,
+				E6383B8319F3C8A200FBD9BE /* SmoothStatusBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6383B6D19F3C8A200FBD9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6383B7A19F3C8A200FBD9BE /* Main.storyboard in Resources */,
+				E6383B7C19F3C8A200FBD9BE /* Images.xcassets in Resources */,
+				E6F71BDC19F3D4BC00590C27 /* back-to-the-future-pic1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6383B8219F3C8A200FBD9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6383B6B19F3C8A200FBD9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6383B7719F3C8A200FBD9BE /* ViewController.swift in Sources */,
+				E6383B7519F3C8A200FBD9BE /* AppDelegate.swift in Sources */,
+				E6383B9819F3CD4800FBD9BE /* UIApplication+FrankAutomation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6383B8019F3C8A200FBD9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6383B8B19F3C8A200FBD9BE /* SmoothStatusBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6383B8619F3C8A200FBD9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6383B6E19F3C8A200FBD9BE /* SmoothStatusBar */;
+			targetProxy = E6383B8519F3C8A200FBD9BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6383B7819F3C8A200FBD9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6383B7919F3C8A200FBD9BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6383B8C19F3C8A200FBD9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6383B8D19F3C8A200FBD9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6383B8F19F3C8A200FBD9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SmoothStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmoothStatusBar/SmoothStatusBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6383B9019F3C8A200FBD9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SmoothStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmoothStatusBar/SmoothStatusBar-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E6383B9219F3C8A200FBD9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmoothStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmoothStatusBar.app/SmoothStatusBar";
+			};
+			name = Debug;
+		};
+		E6383B9319F3C8A200FBD9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmoothStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmoothStatusBar.app/SmoothStatusBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6383B6A19F3C8A200FBD9BE /* Build configuration list for PBXProject "SmoothStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6383B8C19F3C8A200FBD9BE /* Debug */,
+				E6383B8D19F3C8A200FBD9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6383B8E19F3C8A200FBD9BE /* Build configuration list for PBXNativeTarget "SmoothStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6383B8F19F3C8A200FBD9BE /* Debug */,
+				E6383B9019F3C8A200FBD9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6383B9119F3C8A200FBD9BE /* Build configuration list for PBXNativeTarget "SmoothStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6383B9219F3C8A200FBD9BE /* Debug */,
+				E6383B9319F3C8A200FBD9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6383B6719F3C8A200FBD9BE /* Project object */;
+}
