@@ -8,6 +8,6 @@ Thanks to https://github.com/TestingWithFrank/Frank for UIApplication category a
 
 Use switchers to on/off hiding by Y and X scrolling.
 
-![alt tag](https://github.com/vani2/SmoothStatusBar/blob/master/moveX.png)
+![alt tag](https://github.com/vani2/SmoothStatusBar/blob/master/demo.gif)
 
 Please be aware, Apple may not approve your app (or may approve).
