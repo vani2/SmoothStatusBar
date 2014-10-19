@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var ySwitch: UISwitch!
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        if let statusBarWindow = UIApplication.sharedApplication().statusBarWindow() {
+        if let statusBarWindow = UIApplication.sharedApplication().valueForKey("statusBarWindow") as? UIWindow {
             var frame = statusBarWindow.frame
             
             if ySwitch.on {

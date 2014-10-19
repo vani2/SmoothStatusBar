@@ -12,7 +12,6 @@
 		E6383B7A19F3C8A200FBD9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6383B7819F3C8A200FBD9BE /* Main.storyboard */; };
 		E6383B7C19F3C8A200FBD9BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6383B7B19F3C8A200FBD9BE /* Images.xcassets */; };
 		E6383B8B19F3C8A200FBD9BE /* SmoothStatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6383B8A19F3C8A200FBD9BE /* SmoothStatusBarTests.swift */; };
-		E6383B9819F3CD4800FBD9BE /* UIApplication+FrankAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */; };
 		E6F71BDC19F3D4BC00590C27 /* back-to-the-future-pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6F71BDB19F3D4BC00590C27 /* back-to-the-future-pic1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +35,6 @@
 		E6383B8419F3C8A200FBD9BE /* SmoothStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6383B8919F3C8A200FBD9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6383B8A19F3C8A200FBD9BE /* SmoothStatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothStatusBarTests.swift; sourceTree = "<group>"; };
-		E6383B9519F3CD4700FBD9BE /* SmoothStatusBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmoothStatusBar-Bridging-Header.h"; sourceTree = "<group>"; };
-		E6383B9619F3CD4800FBD9BE /* UIApplication+FrankAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FrankAutomation.h"; sourceTree = "<group>"; };
-		E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FrankAutomation.m"; sourceTree = "<group>"; };
 		E6F71BDB19F3D4BC00590C27 /* back-to-the-future-pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back-to-the-future-pic1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +77,6 @@
 		E6383B7119F3C8A200FBD9BE /* SmoothStatusBar */ = {
 			isa = PBXGroup;
 			children = (
-				E6383B9419F3CD1200FBD9BE /* Fex */,
 				E6383B7419F3C8A200FBD9BE /* AppDelegate.swift */,
 				E6383B7619F3C8A200FBD9BE /* ViewController.swift */,
 				E6383B7819F3C8A200FBD9BE /* Main.storyboard */,
@@ -115,16 +110,6 @@
 				E6383B8919F3C8A200FBD9BE /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E6383B9419F3CD1200FBD9BE /* Fex */ = {
-			isa = PBXGroup;
-			children = (
-				E6383B9619F3CD4800FBD9BE /* UIApplication+FrankAutomation.h */,
-				E6383B9719F3CD4800FBD9BE /* UIApplication+FrankAutomation.m */,
-				E6383B9519F3CD4700FBD9BE /* SmoothStatusBar-Bridging-Header.h */,
-			);
-			name = Fex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +214,6 @@
 			files = (
 				E6383B7719F3C8A200FBD9BE /* ViewController.swift in Sources */,
 				E6383B7519F3C8A200FBD9BE /* AppDelegate.swift in Sources */,
-				E6383B9819F3CD4800FBD9BE /* UIApplication+FrankAutomation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +332,8 @@
 				INFOPLIST_FILE = SmoothStatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SmoothStatusBar/SmoothStatusBar-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -361,7 +346,8 @@
 				INFOPLIST_FILE = SmoothStatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SmoothStatusBar/SmoothStatusBar-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
